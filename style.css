@@ -666,7 +666,7 @@ textarea:focus
     border:2px solid rgba(70, 70, 70, 0.411);
 }
 
-.send-btn 
+#submit
 {
     background: rgb(37,27,4);
 background: linear-gradient(90deg, rgba(37,27,4,1) 16%, rgba(115,93,46,0.9584967776172969) 94%);
@@ -681,14 +681,15 @@ letter-spacing: 2px;
 transition:0.4s;
 }
 
-.send-btn:hover 
+#submit:hover 
 {
     cursor: pointer;
-    transition:0.4s;
+    
     transform: scale(1.04);
     -webkit-box-shadow: 0px 5px 10px 0px rgba(50, 50, 50, 0.75);
 -moz-box-shadow:    0px 5px 10px 0px rgba(50, 50, 50, 0.75);
 box-shadow:         0px 5px 10px 0px rgba(50, 50, 50, 0.75);
+transition:0.4s;
 }
 
 footer 
