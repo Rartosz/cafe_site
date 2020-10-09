@@ -29,7 +29,6 @@ let menuClicked = () =>
     hamburgerSpans[1].classList.toggle("second-span-active");
     hamburgerSpans[2].classList.toggle("third-span-active");
     nav.classList.toggle("navMenuClicked");
-    // body.classList.toggle("bodyMenuClicked");
     
 }
 
@@ -41,4 +40,14 @@ menuLinkHover();
 
 
 
-
+function validateForm() {
+    let input_email = document.forms["formularz"]["email"].value;
+    if (input_email=="" || input_email == null) {
+      alert("Email adress is required! :)");
+      return false;
+    }
+    else 
+    {
+      alert("Thanks for contacting us!");
+    }
+  } 
