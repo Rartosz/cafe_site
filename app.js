@@ -32,14 +32,6 @@ let menuClicked = () =>
     
 }
 
-
-menuBtn.addEventListener("click", menuClicked);
-
-
-menuLinkHover();
-
-
-
 function validateForm() {
     let input_email = document.forms["formularz"]["email"].value;
     if (input_email=="" || input_email == null) {
@@ -51,3 +43,28 @@ function validateForm() {
       alert("Thanks for contacting us!");
     }
   } 
+
+let closeMenu = function() 
+{
+    hamburgerSpans[0].classList.remove("first-span-active");
+    hamburgerSpans[1].classList.remove("second-span-active");
+    hamburgerSpans[2].classList.remove("third-span-active");
+    nav.classList.remove("navMenuClicked");
+}
+
+for(let i=0; i<menuLinks.length; i++)
+    {   
+        menuLinks[i].addEventListener("click", function() 
+        {
+            closeMenu();
+        });
+    }
+
+menuBtn.addEventListener("click", menuClicked);
+
+
+menuLinkHover();
+
+
+
+

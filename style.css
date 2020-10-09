@@ -467,7 +467,7 @@ h4
     width:40%;
     height:fit-content;
     top:0px;
-    z-index:3;
+    z-index:1000;
     position: absolute;
     margin-bottom:30px;
   
