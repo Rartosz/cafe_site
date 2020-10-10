@@ -9,7 +9,7 @@
 
 
 ## To watch the live demo, click the link below:
-[LIVE DEMO 🔴 *CLICK*](https://www.angry-goldberg-b0cc18.netlify.app/)
+[LIVE DEMO 🔴 *CLICK*](https://angry-goldberg-b0cc18.netlify.app/)
 
 
 ![alt text](https://github.com/Rartosz/cafe_site/blob/main/images/cafe-ss.png "SS from the website")
